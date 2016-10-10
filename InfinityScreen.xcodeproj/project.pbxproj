@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		728723CE1DABBA9D00C9208C /* InfinityScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 728723CD1DABBA9D00C9208C /* InfinityScreenView.h */; };
+		728723D01DABBA9D00C9208C /* InfinityScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 728723CF1DABBA9D00C9208C /* InfinityScreenView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		728723CA1DABBA9D00C9208C /* InfinityScreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityScreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		728723CD1DABBA9D00C9208C /* InfinityScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfinityScreenView.h; sourceTree = "<group>"; };
+		728723CF1DABBA9D00C9208C /* InfinityScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfinityScreenView.m; sourceTree = "<group>"; };
+		728723D11DABBA9D00C9208C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728723C61DABBA9D00C9208C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		728723C01DABBA9C00C9208C = {
+			isa = PBXGroup;
+			children = (
+				728723CC1DABBA9D00C9208C /* InfinityScreen */,
+				728723CB1DABBA9D00C9208C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		728723CB1DABBA9D00C9208C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728723CA1DABBA9D00C9208C /* InfinityScreen.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728723CC1DABBA9D00C9208C /* InfinityScreen */ = {
+			isa = PBXGroup;
+			children = (
+				728723CD1DABBA9D00C9208C /* InfinityScreenView.h */,
+				728723CF1DABBA9D00C9208C /* InfinityScreenView.m */,
+				728723D11DABBA9D00C9208C /* Info.plist */,
+			);
+			path = InfinityScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		728723C71DABBA9D00C9208C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728723CE1DABBA9D00C9208C /* InfinityScreenView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		728723C91DABBA9D00C9208C /* InfinityScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728723D41DABBA9D00C9208C /* Build configuration list for PBXNativeTarget "InfinityScreen" */;
+			buildPhases = (
+				728723C51DABBA9D00C9208C /* Sources */,
+				728723C61DABBA9D00C9208C /* Frameworks */,
+				728723C71DABBA9D00C9208C /* Headers */,
+				728723C81DABBA9D00C9208C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinityScreen;
+			productName = InfinityScreen;
+			productReference = 728723CA1DABBA9D00C9208C /* InfinityScreen.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728723C11DABBA9C00C9208C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MonsterTechStudio;
+				TargetAttributes = {
+					728723C91DABBA9D00C9208C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TSXDWSWUUR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 728723C41DABBA9C00C9208C /* Build configuration list for PBXProject "InfinityScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 728723C01DABBA9C00C9208C;
+			productRefGroup = 728723CB1DABBA9D00C9208C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728723C91DABBA9D00C9208C /* InfinityScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728723C81DABBA9D00C9208C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728723C51DABBA9D00C9208C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728723D01DABBA9D00C9208C /* InfinityScreenView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		728723D21DABBA9D00C9208C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		728723D31DABBA9D00C9208C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		728723D51DABBA9D00C9208C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TSXDWSWUUR;
+				INFOPLIST_FILE = InfinityScreen/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertechstudio.InfinityScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		728723D61DABBA9D00C9208C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TSXDWSWUUR;
+				INFOPLIST_FILE = InfinityScreen/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertechstudio.InfinityScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728723C41DABBA9C00C9208C /* Build configuration list for PBXProject "InfinityScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728723D21DABBA9D00C9208C /* Debug */,
+				728723D31DABBA9D00C9208C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728723D41DABBA9D00C9208C /* Build configuration list for PBXNativeTarget "InfinityScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728723D51DABBA9D00C9208C /* Debug */,
+				728723D61DABBA9D00C9208C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728723C11DABBA9C00C9208C /* Project object */;
+}
